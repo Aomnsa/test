@@ -16,7 +16,7 @@
 	$userId = $deCode['events'][0]['source']['userId'];
 	$type = $deCode['events'][0]['type'];
 
-	$token = "fddf1630566e7e8eb979079efbdc04fa";
+	$token = 2b380c2368a7f5dec94205b0c2376726;
 
 	$LINEProfileDatas['url'] = "https://api.line.me/v2/bot/profile/".$userId;
   	$LINEProfileDatas['token'] = $token;
@@ -38,7 +38,7 @@
 
     $service = new \Google_Service_Sheets($client);
 
-    $spreadsheetId = "1M69TwfXo24NBeUL1kCRNdBDXqgqwLDau4jG1YGXpW7I";
+    $spreadsheetId = 1M69TwfXo24NBeUL1kCRNdBDXqgqwLDau4jG1YGXpW7I;
 
     // updateData($spreadsheetId,$service);
     insertData($spreadsheetId,$service,$displayName);
